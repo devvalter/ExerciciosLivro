@@ -1,6 +1,87 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.imagem {
+    width: 40%;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.cardInfos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.campoInputText {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+#inSaque {
+    width: 90%;
+    padding: 5px;
+}
+
+#btMostrar {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000;
+    color: #cae5e6;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 50%;
+    align-self: center;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+
+#btMostrar:hover {
+    background-color: #cae5e6;
+    color: #000;
+}
+
+.valoresDisponiveis{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4%;
+}
+
+h3{
+    font-size: 30px;
+}

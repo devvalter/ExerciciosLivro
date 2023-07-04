@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programa Caixa Eletrônico</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <div class="imagem">
+            <img src="https://i-dailymail-co-uk.cdn.ampproject.org/ii/w820/s/i.dailymail.co.uk/1s/2020/08/22/14/32254584-0-image-a-127_1598102064488.jpg"
+                alt="Caixa Eletronico">
+        </div>
+        
+        <div class="cardInfos">
+            <h1> Programa Caixa Eletrônico </h1>
+            <hr size="5" width="550" color="#cae5e6">
+            <h2> Cédulas disponíveis: 200, 50, 20 e 5 reais </h2>
+            <div class="campoInputText">
+                <p>Digite o valor do saque R$:</p>
+                <input type="text" id="inSaque">
+            </div>
+            <input type="button" value="Exibir Notas para Saque:" id="btMostrar">
+        </div>
+    </div>
+            <div class="valoresDisponiveis">
+                <h3 id="outNotaDuzentos"> </h3>
+                <h3 id="outNotaCinquenta"> </h3>
+                <h3 id="outNotaVinte"> </h3>
+                <h3 id="outNotaCinco"> </h3>
+            </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
