@@ -16,16 +16,21 @@
         </div>
         <div class="infos">
             <h1>Cálcule seu aumento salarial</h1>
-            <!-- <hr size="3" color="#000"> -->
+            <hr size="3" color="#000">
             <div class="campoSalarioAtual">
-                <h3> Informe seu salário atual:</h3> <input type="text" id="inSalario">
+                <h3> Informe seu salário atual:</h3> <input type="text" id="inSalario" placeholder="Coloque o valor aqui R$">
             </div>
             <h2> Qual a sua situação na empresa:</h2>
-            <p> <input type="radio" name="porcentagem" id="rbEstagiario"> Sou Estagiário (5%) </p>
-            <p> <input type="radio" name="porcentagem" id="rbTemporario"> Tenho Contrato Temporário (8%)</p>
-            <p> <input type="radio" name="porcentagem" id="rbEfetivado"> Sou Efetivado (15%) </p>
-            <p><input type="button" value="Calcular Novo Salário" id="btCalcular">
-                <input type="button" value="Limpar Campos" id="btLimpar">
+            <div class="radioSituacao">
+                <p> <input type="radio" name="porcentagem" id="rbEstagiario"> Sou Estagiário (5%) </p>
+                <p> <input type="radio" name="porcentagem" id="rbTemporario"> Tenho Contrato Temporário (8%)</p>
+                <p> <input type="radio" name="porcentagem" id="rbEfetivado"> Sou Efetivado (15%) </p>
+            </div>
+            
+            <div class="botoes">
+                <input type="button" value="Calcular Novo Salário" id="btCalcular" class="botao">
+                    <input type="button" value="Limpar Campos" id="btLimpar" class="botao">
+            </div>
         </div>
     </div>
     <h3 id="outResposta"> </h3>
