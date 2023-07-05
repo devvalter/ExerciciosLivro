@@ -1,7 +1,7 @@
 # ExerciciosLivro
 Exercícios do livro: Lógica de Programação e Algoritmos com JavaScript de Edécio Fernando Iepsen
 
-1) **Programa Caixa Eletrônico**
+1) **Programa Caixa Eletrônico** -
 Num caixa eletrônico apenas notas de 200, 50, 20 e 5 reais estão disponíveis para saque. Elabore um programa que leia um valor de saque
 de um cliente, verifique sua validade (ou seja, se pode ser pago com as notas disponíveis) e informe o número mínimo de notas de 200, 50, 20 e 5 necessárias para
 pagar esse saque.
@@ -11,7 +11,7 @@ Obs.:
 
 ![Databrick project with Snowflake](img/programaCaixaEletronico.jpeg)
 
-2) **Programa Cálculo de Aumento Salarial**
+2) **Programa Cálculo de Aumento Salarial** -
 Elabore um programe que recebe o salário atual de um funcionário de uma grande empresa e com base na situação do funcionário calcula e informa o novo salário.
 Obs.: 
 1: Faça aparecer mensagens de alert() sugestivas se o campo de salário não estiver preenchido ou preenchido incorretamente. E crie uma função para o botão Limpar Campos.
