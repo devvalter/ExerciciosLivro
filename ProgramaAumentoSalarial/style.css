@@ -3,3 +3,23 @@
     padding: 0;
     font-family: sans-serif;
 }
+
+img{
+    width: 100%;
+}
+
+.image{
+    width: 30%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 1%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 800;
+}
