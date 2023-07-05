@@ -10,3 +10,10 @@ Obs.:
 2: O título da página deve conter as iniciais do seu nome após a palavra BANCO.
 
 ![Databrick project with Snowflake](img/programaCaixaEletronico.jpeg)
+
+2) **Programa Cálculo de Aumento Salarial**
+Elabore um programe que recebe o salário atual de um funcionário de uma grande empresa e com base na situação do funcionário calcula e informa o novo salário.
+Obs.: 
+1: Faça aparecer mensagens de alert() sugestivas se o campo de salário não estiver preenchido ou preenchido incorretamente. E crie uma função para o botão Limpar Campos.
+
+![Databrick project with Snowflake](img/aumentoSalarial.jpeg)
