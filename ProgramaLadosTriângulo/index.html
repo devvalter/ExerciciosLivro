@@ -12,22 +12,30 @@
 
     <div class="container">
 
-        <img src="https://static.preparaenem.com/conteudo_legenda/e0553c741dcccca8045a0fd58e800e39.jpg"
-            alt="Lados Triângulo">
+        <div class="image">
+            <img src="https://static.preparaenem.com/conteudo_legenda/e0553c741dcccca8045a0fd58e800e39.jpg"
+                alt="Lados Triângulo">
+        </div>
 
         <div class="infos">
             <h1>Programa Lados de um Triângulo</h1>
             <hr size="3" color="#000">
-            <p>Lado A: <input type="text" id="inA"></p>
-            <p>Lado B: <input type="text" id="inB"></p>
-            <p>Lado C: <input type="text" id="inC"></p>
-            <input type="button" value="Verificar Lados" id="btCalcular">
+            <div class="ladosTriangulo">
+                <p>Lado A: </p><input type="text" id="inA">
+                <p>Lado B: </p><input type="text" id="inB">
+                <p>Lado C: </p><input type="text" id="inC">
+            </div>
+            <div class="botao">
+                <input type="button" value="Verificar Lados" id="btCalcular">
+            </div>
         </div>
         
     </div>
 
-    <h3 id="outResultado"> </h3>
-    <h3 id="outTipo"> </h3>
+    <div class="resultados">
+        <h3 id="outResultado"> </h3>
+        <h3 id="outTipo"> </h3>
+    </div>
 
     <script src="script.js"></script>
 </body>
